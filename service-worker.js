@@ -27,7 +27,7 @@
 
 
 
-importScripts("scripts/sw/sw-toolbox.js","scripts/sw/runtime-caching.js");
+importScripts("scripts/sw/sw-toolbox.js","scripts/sw/runtime-caching.js"); 
 
 
 /* eslint-disable quotes, comma-spacing */
@@ -254,7 +254,3 @@ self.addEventListener('fetch', function(event) {
     }
   }
 });
-
-
-
-
